@@ -1,0 +1,43 @@
+{
+    "ahmad": {
+        "name": "ahmad",
+        "password": "admin1",
+        "tasks": [
+            {
+                "name": "send invitations",
+                "description": "for family",
+                "category": "Guest",
+                "deadline": "2023-12-12",
+                "isImportant": true,
+                "notes": []
+            },
+            {
+                "name": "book",
+                "description": "read book",
+                "category": "Guess",
+                "deadline": "12-12-2024",
+                "isImportant": false,
+                "notes": []
+            }
+        ]
+    },
+    "agus": {
+        "name": "agus",
+        "password": "123456",
+        "tasks": []
+    },
+    "rizani": {
+        "name": "rizani",
+        "password": "admin1",
+        "tasks": [
+            {
+                "name": "book caterer",
+                "description": "send book",
+                "category": "Other",
+                "deadline": "2024-12-30",
+                "isImportant": true,
+                "notes": []
+            }
+        ]
+    }
+}
