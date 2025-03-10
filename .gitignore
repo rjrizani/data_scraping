@@ -2,8 +2,11 @@
 /other/email.txt
 /other/zapier_output.json
 /other/todo.py
+<<<<<<< HEAD
 src/__pycache__/__init__.cpython-311.pyc
 src/__pycache__/models.cpython-311.pyc
 src/__pycache__/soup.cpython-311.pyc
 src/__pycache__/utils.cpython-311.pyc
 books_2025_03_10.xlsx
+=======
+>>>>>>> ca2978b7b42b023de20e8a4fde8b25eee32af5bf
