@@ -16,8 +16,11 @@ class Soup(BeautifulSoup):
                  .replace("In stock (", "").replace(" available)", "")))
         rating = self.find("p", class_="star-rating").get_attribute_list("class")[1]
         rating = self.convert_rating(rating)
-        description = self.find("article", class_="product_page").find("p", class_ = False,
-                                                                       id = False).get_text()
+
+        article = self.find("article", class_="product_page")
+        desc_element = article.find("p", class_=False, id=False) if article else None
+        description = desc_element.get_text() if desc_element else ""
+        
         table :list[BeautifulSoup] = self.find("table", class_="table table-striped").findAll("td")
         table = [t.get_text() for t in table]
         upc = table[0]
